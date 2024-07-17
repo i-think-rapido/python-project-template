@@ -84,6 +84,21 @@ files = [
 ]
 
 [[package]]
+name = "nose2"
+version = "0.15.1"
+description = "unittest with plugins"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "nose2-0.15.1-py3-none-any.whl", hash = "sha256:564450c0c4f1602dfe171902ceb4726cc56658af7a620ae1826f1ffc86b09a86"},
+    {file = "nose2-0.15.1.tar.gz", hash = "sha256:36770f519df5becd3cbfe0bee4abbfbf9b9f6b4eb4e03361d282b7efcfc4f0df"},
+]
+
+[package.extras]
+coverage-plugin = ["coverage"]
+dev = ["sphinx", "sphinx-issues", "sphinx-rtd-theme"]
+
+[[package]]
 name = "omegaconf"
 version = "2.3.0"
 description = "A flexible configuration library"
@@ -210,4 +225,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "9a06885c59c6d4ae6e46254ff1e7496cf8a7ac07c93f7e8cdbbd53c5f2e4f14a"
+content-hash = "de5676f32ccedd0ddf1771a7cc29c3de30d159f5f50936d234a2be885cc8bf7a"

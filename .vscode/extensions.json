@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "tamasfe.even-better-toml",
         "usernamehw.errorlens",
         "ms-python.python",
         "ms-python.debugpy",
